@@ -1,5 +1,5 @@
 # OmniGen-ComfyUI
-a custom node for [OmniGen](https://github.com/VectorSpaceLab/OmniGen), you can find [workflow here](./doc/)
+a custom node for [OmniGen](https://github.com/benjiyaya/OmniGen-ComfyUI), you can find [workflow here](./doc/)
 
 # Update 
 <b>2024-11-03</b>
