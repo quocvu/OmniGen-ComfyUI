@@ -6,10 +6,10 @@ a custom node for [OmniGen](https://github.com/VectorSpaceLab/OmniGen), you can 
 This Forked version fixed the Text Prompt Node that cause "Red Box Error" from the original GitHub project.
 
 Original GitHub project
-(https://thefuturethinker.org/wp-content/uploads/2024/11/1102-11-frame-at-10m41s.jpg)
+![](https://thefuturethinker.org/wp-content/uploads/2024/11/1102-11-frame-at-10m41s.jpg)
 
 After Fixed
-(https://thefuturethinker.org/wp-content/uploads/2024/11/1102-11-frame-at-12m29s.jpg)
+![](https://thefuturethinker.org/wp-content/uploads/2024/11/1102-11-frame-at-12m29s.jpg)
 
 
 ## EXample
