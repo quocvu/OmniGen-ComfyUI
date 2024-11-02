@@ -1,6 +1,11 @@
 # OmniGen-ComfyUI
 a custom node for [OmniGen](https://github.com/VectorSpaceLab/OmniGen), you can find [workflow here](./doc/)
 
+# Update 
+<b>2024-11-03</b>
+This Forked version fixed the Text Prompt Node that cause "Red Box Error" from the original GitHub project.
+
+
 ## EXample
 in prompt text, you only need `image_1`, text will auto be `<img><|image_1|></img>`
 |text|image_1|image_2|image_3|out_img|
