@@ -5,6 +5,12 @@ a custom node for [OmniGen](https://github.com/VectorSpaceLab/OmniGen), you can 
 <b>2024-11-03</b>
 This Forked version fixed the Text Prompt Node that cause "Red Box Error" from the original GitHub project.
 
+Original GitHub project
+(https://thefuturethinker.org/wp-content/uploads/2024/11/1102-11-frame-at-10m41s.jpg)
+
+After Fixed
+(https://thefuturethinker.org/wp-content/uploads/2024/11/1102-11-frame-at-12m29s.jpg)
+
 
 ## EXample
 in prompt text, you only need `image_1`, text will auto be `<img><|image_1|></img>`
