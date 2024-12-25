@@ -82,13 +82,14 @@ class OmniGenPipeline:
         model = OmniGen.from_pretrained(model_name)
         processor = OmniGenProcessor.from_pretrained(model_name)
 
+        print(f"==== MODEL NAME {model_name}")
         if os.path.exists(os.path.join(model_name, "vae")):
             vae = AutoencoderKL.from_pretrained(os.path.join(model_name, "vae"))
         elif vae_path is not None:
-            vae = AutoencoderKL.from_pretrained(vae_path).to(device)
+            vae = AutoencoderKL.from_pretrained(vae_path).to(self.device)
         else:
             logger.info(f"No VAE found in {model_name}, downloading stabilityai/sdxl-vae from HF")
-            vae = AutoencoderKL.from_pretrained("stabilityai/sdxl-vae").to(device)
+            vae = AutoencoderKL.from_pretrained("stabilityai/sdxl-vae").to(self.device)
 
         return cls(vae, model, processor)
     
